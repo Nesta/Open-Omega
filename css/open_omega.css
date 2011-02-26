@@ -351,7 +351,7 @@ a:hover, a:active {
   font-family: Palatino, "Times New Roman", serif;
 }
 
-#block-search-form {
+#region-header #block-search-form {
 	border: 1px solid #0071a5;
 	margin: 25px 12px 0 0;
 	padding: 10px;
