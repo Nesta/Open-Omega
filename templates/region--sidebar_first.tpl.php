@@ -30,7 +30,9 @@
 <?php if ($content): ?>
   <div class="<?php print $classes; ?>" <?php print $attributes; ?>>
     <div class="sidebar-inner">
-    <?php print $content; ?>
+      <div class="section">
+        <?php print $content; ?>
+      </div>
     </div>
   </div>
 <?php endif; ?>

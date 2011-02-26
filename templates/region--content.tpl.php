@@ -30,6 +30,7 @@
 <?php if (isset($content)): ?>
   <?php $tag = $title ? 'div' : 'div'; ?>
   <<?php print $tag; ?> class="<?php print $classes; ?>" <?php print $attributes; ?>>
+    <div class="section">
     <div id="breadcrumb">
       <?php if (!empty($addthis)): ?>
         <div id="addthis"><?php print $addthis; ?></div>
@@ -49,5 +50,6 @@
     <?php if(isset($content)): ?>
       <?php print $content; ?>
     <?php endif; ?>
+    </div>
   </<?php print $tag; ?>>
 <?php endif; ?>
