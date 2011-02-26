@@ -283,6 +283,8 @@ a:hover, a:active {
 /* Make the homepage rotator fit inside the grid */
 #home-rotator {
   padding: 10px;
+  padding-bottom: 0;
+  height: 290px;
 }
 .view-home-page-feature-rotator {
   margin: 0;
@@ -291,6 +293,9 @@ a:hover, a:active {
 .home-rotator-photo {
   float: right;
   width: 520px;
+}
+.home-rotator-slide {
+  margin: 10px;
 }
 .home-rotator-text-block {
   background: url("bg-home-rotator-text.jpg") no-repeat scroll 0 0 transparent;
