@@ -21,3 +21,24 @@ function open_omega_theme(&$existing, $type, $theme, $path) {
   
   return $hooks;
 }
+
+/**
+ * Implements hook_css_alter().
+ */
+function open_omega_css_alter(&$css) {
+  
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function open_omega_form_alter(&$css) {
+  
+}
+
+/**
+ * Implements hook_page_alter().
+ */
+function open_omega_page_alter(&$css) {
+  
+}
