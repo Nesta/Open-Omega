@@ -1,0 +1,165 @@
+;##########################################################################################
+;      _                _                                  _                     _
+;   __| | _____   _____| | ___  _ __  _ __ ___   ___ _ __ | |_    __ _  ___  ___| | _____
+;  / _` |/ _ \ \ / / _ \ |/ _ \| '_ \| '_ ` _ \ / _ \ '_ \| __|  / _` |/ _ \/ _ \ |/ / __|
+; | (_| |  __/\ V /  __/ | (_) | |_) | | | | | |  __/ | | | |_  | (_| |  __/  __/   <\__ \
+;  \__,_|\___| \_/ \___|_|\___/| .__/|_| |_| |_|\___|_| |_|\__|  \__, |\___|\___|_|\_\___/
+;                              |_|                               |___/
+;##########################################################################################
+
+name        = Open Omega
+description = XHTML Starter Theme for <a href="http://www.phase2technology.com/openpublic">Open Public</a> - Powered by <a href="http://himer.us/omega960">Omega</a>.
+screenshot = screenshot.png
+core       = 7.x
+base theme = omega
+
+; ------- Declare default stylesheets
+stylesheets[all][] = css/open_omega.css
+
+; Print-version styles
+stylesheets[print][] = css/print.css
+
+; IE 8 and below stylesheet
+stylesheets-conditional[lt IE 8][all][] = css/openpublic_theme_ie8.css
+
+; IE 7 and below stylesheet
+stylesheets-conditional[lt IE 7][all][] = css/openpublic_theme_ie7.css
+
+; ------- Declare default JavaScript includes
+;scripts[] = js/your_js_file.js
+
+
+; Do NOT remove the following commented lines. They will be used for 
+; automated generation of the .info settings when rewritten.
+
+; CONTENT REGIONS
+
+; REQUIRED CORE REGIONS
+
+regions[page_top] = Page Top
+regions[page_bottom] = Page Bottom
+regions[content] = Content
+regions[help] = Help
+
+; END REQUIRED CORE REGIONS
+
+; OPTIONAL CONTENT REGIONS
+
+regions[branding] = Branding
+regions[header] = Header
+
+regions[sidebar_first] = Sidebar First
+regions[sidebar_second] = Sidebar Second
+
+regions[content_prefix] = Above Content
+regions[content_suffix] = Below Content
+
+regions[inner_first] = First Inner
+regions[inner_second] = Second Inner
+
+regions[footer] = Footer Footer
+
+; END CONTENT REGIONS
+
+; CONTENT ZONES
+
+zones[header][] = branding
+zones[header][] = header
+
+; default settings for "normal" content sections
+zones[content][] = content
+zones[content][] = sidebar_first
+zones[content][] = sidebar_second
+
+zones[footer][] = footer
+
+; END CONTENT ZONES
+
+settings[omega_default_container_width] = '12'
+settings[omega_fixed_fluid] = 'fixed'
+settings[omega_header_enabled] = '1'
+settings[omega_header_wrapper] = '1'
+settings[omega_header_container_width] = '12'
+settings[omega_header_zone_type] = 'static'
+settings[omega_header_dynamic_zone_primary_region] = 'branding'
+settings[omega_header_zone_extra_classes] = 'header-zone'
+settings[omega_header_branding_region_prefix] = ''
+settings[omega_header_branding_region_width] = '8'
+settings[omega_header_branding_region_suffix] = ''
+settings[omega_header_branding_region_order] = '1'
+settings[omega_header_branding_region_extra_classes] = ''
+settings[omega_header_header_region_prefix] = ''
+settings[omega_header_header_region_width] = '4'
+settings[omega_header_header_region_suffix] = ''
+settings[omega_header_header_region_order] = '1'
+settings[omega_header_header_region_extra_classes] = ''
+settings[omega_header_menu_region_prefix] = ''
+settings[omega_header_menu_region_width] = '12'
+settings[omega_header_menu_region_suffix] = ''
+settings[omega_header_menu_region_order] = '1'
+settings[omega_header_menu_region_extra_classes] = ''
+settings[omega_content_enabled] = '1'
+settings[omega_content_wrapper] = ''
+settings[omega_content_container_width] = '12'
+settings[omega_content_zone_type] = 'dynamic'
+settings[omega_content_dynamic_zone_primary_region] = 'content'
+settings[omega_content_zone_extra_classes] = 'content-zone'
+settings[omega_content_content_region_prefix] = ''
+settings[omega_content_content_region_width] = '6'
+settings[omega_content_content_region_suffix] = ''
+settings[omega_content_content_region_order] = '2'
+settings[omega_content_content_region_extra_classes] = 'content-region'
+settings[omega_content_sidebar_first_region_prefix] = ''
+settings[omega_content_sidebar_first_region_width] = '3'
+settings[omega_content_sidebar_first_region_suffix] = ''
+settings[omega_content_sidebar_first_region_order] = '1'
+settings[omega_content_sidebar_first_region_extra_classes] = 'sidebar-first-region'
+settings[omega_content_sidebar_second_region_prefix] = ''
+settings[omega_content_sidebar_second_region_width] = '3'
+settings[omega_content_sidebar_second_region_suffix] = ''
+settings[omega_content_sidebar_second_region_order] = '3'
+settings[omega_content_sidebar_second_region_extra_classes] = 'sidebar-second-region'
+settings[omega_footer_enabled] = '1'
+settings[omega_footer_wrapper] = '1'
+settings[omega_footer_container_width] = '12'
+settings[omega_footer_zone_type] = 'static'
+settings[omega_footer_dynamic_zone_primary_region] = 'footer'
+settings[omega_footer_zone_extra_classes] = 'footer-zone'
+settings[omega_footer_footer_region_prefix] = ''
+settings[omega_footer_footer_region_width] = '12'
+settings[omega_footer_footer_region_suffix] = ''
+settings[omega_footer_footer_region_order] = '1'
+settings[omega_footer_footer_region_extra_classes] = ''
+settings[omega_grid__active_tab] = 'edit-content'
+settings[reset_css] = '1'
+settings[text_css] = ''
+settings[table_css] = ''
+settings[menu_css] = ''
+settings[link_css] = ''
+settings[form_css] = ''
+settings[pager_css] = ''
+settings[regions_css] = ''
+settings[defaults_css] = ''
+settings[custom_css] = ''
+settings[user_login_form] = '1'
+settings[user_login_name_placeholder] = 'Username'
+settings[user_login_pass_placeholder] = 'Password'
+settings[omega_search_default_text] = 'Search...'
+settings[configurable_separator] = ' | '
+settings[front_page_title_display] = 'title_slogan'
+settings[page_title_display_custom] = ''
+settings[other_page_title_display] = 'ptitle_stitle'
+settings[other_page_title_display_custom] = ''
+settings[omega_breadcrumb] = 'yes'
+settings[omega_breadcrumb_separator] = ' / '
+settings[omega_breadcrumb_home] = '1'
+settings[omega_breadcrumb_trailing] = '1'
+settings[omega_breadcrumb_title] = '1'
+settings[omega_menu_type] = 'drupal'
+settings[omega_menu_depth] = '5'
+settings[debug_block_toggle] = ''
+settings[debug_grid_toggle] = ''
+settings[debug_grid_toggle_state] = ''
+settings[debug_grid_roles][3] = '3'
+settings[debug_grid_roles][2] = '0'
+settings[omega_general__active_tab] = 'edit-optional-css'
