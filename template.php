@@ -26,7 +26,7 @@ function open_omega_theme(&$existing, $type, $theme, $path) {
  * Implements hook_css_alter().
  */
 function open_omega_css_alter(&$css) {
-  
+  //krumo($css); 
 }
 
 /**
