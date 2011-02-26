@@ -30,6 +30,14 @@
 <?php if (isset($content)): ?>
   <?php $tag = $title ? 'div' : 'div'; ?>
   <<?php print $tag; ?> class="<?php print $classes; ?>" <?php print $attributes; ?>>
+    <div id="breadcrumb">
+      <?php if (!empty($addthis)): ?>
+        <div id="addthis"><?php print $addthis; ?></div>
+      <?php endif; ?>
+      <?php if (!empty($breadcrumb)): ?>
+        <?php print $breadcrumb; ?>
+      <?php endif; ?>
+    </div>
     <?php if($title): ?>
       <?php print render($title_prefix); ?>
         <h1 <?php print $title_attributes; ?>><?php print $title; ?></h1>

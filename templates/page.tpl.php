@@ -53,9 +53,11 @@
         </div>
       </div>
     <?php endif; ?>
+    
     <?php if (isset($page['content_zone'])): ?>
       <?php print render($page['content_zone']); ?>
     <?php endif; ?>
+    
     <?php if (isset($page['content_suffix'])): ?>
       <div id="content_prefix_container" class="container-<?php print $default_container_width; ?> clearfix">
         <div class="grid-<?php print $default_container_width; ?>">

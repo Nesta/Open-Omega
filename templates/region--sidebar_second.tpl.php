@@ -29,6 +29,8 @@
 ?>
 <?php if ($content): ?>
   <div class="<?php print $classes; ?>" <?php print $attributes; ?>>
+    <div class="sidebar-inner">
     <?php print $content; ?>
+    </div>
   </div>
 <?php endif; ?>

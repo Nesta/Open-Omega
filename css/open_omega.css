@@ -304,48 +304,46 @@ a:hover, a:active {
 
 
 
-.branding-data {
-  margin-bottom: 20px;
-}
-.branding-data .title{
+
+#region-branding .branding-data {
 	float: left;
-    width:640px;
-    overflow: hidden;
-    height:119px;
-    background: url(../img/bg-header-glow.png) no-repeat;
+  overflow: hidden;
+  width: 620px;
+  height:110px;
+  background: url(../i/bg-header-glow.png) no-repeat;
 }
-.branding-data .logo-img{
+#region-branding .branding-data .logo-img{
 	float: left;
 	padding: 8px 2px 0 10px;
 }
 
-.branding-data .site-title {
+#region-branding .branding-data h1.site-title,
+#region-branding .branding-data h2.site-title {
   font-size: 4em;
   font-weight: normal;
   letter-spacing: -0.04em;
   font-family: Palatino, "Times New Roman", serif;
+  font-style: normal;
+  margin: 0;
+  line-height: inherit;
 }
 
-.branding-data .site-title a{
+#region-branding .branding-data h1.site-title a,
+#region-branding .branding-data h2.site-title a {
   color: #ffffff;
   padding: 20px 0 0 0;
   display: block;
+  text-decoration: none;
   text-shadow:0 1px 1px rgba(0,0,0,0.3);
 }
 
-.branding-data .site-slogan {
+#region-branding .branding-data .site-slogan {
   font-size: 		1.417em;
   font-style:italic;
   font-weight: normal;
   color: #ffffff;
   margin: 0 0 0 0;
   font-family: Palatino, "Times New Roman", serif;
-}
-
-
-.branding-data-right-content {
-	float: right;
-	width: 292px;
 }
 
 #block-search-form {
@@ -516,4 +514,52 @@ text-decoration: none;
 	color: #FFF;
 	padding: 9px 0 9px 16px;
 	border: none;
+}
+
+/******* Breadcrumb
+********/
+
+
+#breadcrumb {
+	color: #ccc;
+	border-bottom: 1px solid #e3e3e3;
+	padding-bottom: 8px;
+	font-style: italic;
+	font-family: Georgia, sans-serif;
+}
+
+#breadcrumb ul {
+	padding: 0;
+	margin: 0;
+}
+
+#breadcrumb li {
+	list-style-type: none;
+	font-size: 1em;
+	display: inline;
+	margin: 0 3px 0 0;
+	padding: 0;
+	color: #ccc;
+}
+
+#breadcrumb .breadcrumb-item {
+	color: #333;
+}
+
+#breadcrumb .breadcrumb {
+	margin: 0 3px 0 0;
+	font-family: Georgia, serif;
+}
+
+#breadcrumb .breadcrumb a {
+	color: #179BCD;
+	margin-right: 4px;
+}
+
+#breadcrumb .breadcrumb a:hover {
+	color: #8CDAF1;
+}
+
+.not-front #region-sidebar_second .sidebar-inner {
+  padding-left: 20px;
 }

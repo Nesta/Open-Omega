@@ -112,4 +112,7 @@ if(function_exists('defaultcontent_get_node') &&
   $vars['subscribe_form'] = $node['webform'];
 }
 
+
+
+
 //krumo($vars);
