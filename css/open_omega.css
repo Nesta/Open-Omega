@@ -600,11 +600,44 @@ text-decoration: none;
 
 
 
+.sidebar .block {
+	padding-bottom: 15px;
+	background: #FFF url(../i/bg-fuz.png) repeat-x;
+	margin: 10px 0;
+}
 
+.block h3.block-title {
+	color: #333;
+	font-weight: normal;	
+	font-size: 1.3em;
+	padding: 15px;
+	border-top: 3px solid #0673ab;
+}
+#block-openpublic-defaults-current-navigation h3.block-title {
+    
+}
 
+#stay-connected h3 {
+  padding: 10px 15px;
+}
+#stay-connected ul {
+  padding-left: 20px;
+}
+#stay-connected li {
+  margin-right: 0;
+}
 
-
-
+#stay-connected li a {
+  display: block;
+  height: 32px;
+  padding: 0 20px 0 0;
+  margin: 0 0 15px 0;
+  text-indent: -9000px;
+  width: 32px;
+}
+#stay-connected li:last-child a {
+  padding-right: 0;
+}
 
 
 
@@ -617,22 +650,18 @@ img.photo {
 	border: 1px solid #b2b5b5;
 }
 
-.section-col .photo img,
-.section-col img.photo {
+.sidebar .photo img,
+.sidebar img.photo {
 	margin: 0 10px 10px 0;
 	float: left;
 }
 
-.section-col p {
+.sidebar p {
 	font-size: 1em;
 	font-family: Georgia, serif;
 }
 
-.section-content {
-	padding-bottom: 15px;
-	background: #FFF url(../i/bg-fuz.png) repeat-x;
-	margin: 10px 0;
-}
+
 .section-content .section-content {
 	padding-bottom: 15px;
 	background: transparent;
@@ -663,16 +692,7 @@ img.photo {
 .views-field-title h4 a:hover {
  	color:#1670AC;
 }
-.section-content h3 {
-	color: #333;
-	font-weight: normal;	
-	font-size: 1.3em;
-	padding: 10px 15px 20px 15px;
-	border-top: 3px solid #0673ab;
-}
-#block-openpublic-defaults-current-navigation h3 {
-    padding-bottom: 3px;
-}
+
 
 
 .tweets-pulled-listing h2 {
