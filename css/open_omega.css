@@ -601,7 +601,7 @@ text-decoration: none;
 
 
 .sidebar .block {
-	padding-bottom: 15px;
+	padding-bottom: 0;
 	background: #FFF url(../i/bg-fuz.png) repeat-x;
 	margin: 10px 0;
 }
