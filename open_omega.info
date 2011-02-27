@@ -26,7 +26,7 @@ stylesheets-conditional[lt IE 8][all][] = css/openpublic_theme_ie8.css
 stylesheets-conditional[lt IE 7][all][] = css/openpublic_theme_ie7.css
 
 ; ------- Declare default JavaScript includes
-;scripts[] = js/your_js_file.js
+scripts[] = js/open_omega.js
 
 
 ; Do NOT remove the following commented lines. They will be used for 

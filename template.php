@@ -26,7 +26,11 @@ function open_omega_theme(&$existing, $type, $theme, $path) {
  * Implements hook_css_alter().
  */
 function open_omega_css_alter(&$css) {
-  //krumo($css); 
+  //unset($css['profiles/openpublic/modules/features/openpublic_services/theme/openpublic_services.css']);
+  //unset($css['profiles/openpublic/modules/features/openpublic_defaults/theme/openpublic_defaults.css']);
+  //unset($css['profiles/openpublic/modules/features/openpublic_most_popular/theme/openpublic_most_popular.css']);
+  //unset($css['profiles/openpublic/modules/custom/combineblocks/combineblocks.css']);
+  //krumo($css);
 }
 
 /**

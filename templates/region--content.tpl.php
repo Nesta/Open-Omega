@@ -30,7 +30,7 @@
 <?php if (isset($content)): ?>
   <?php $tag = $title ? 'div' : 'div'; ?>
   <<?php print $tag; ?> class="<?php print $classes; ?>" <?php print $attributes; ?>>
-    <div class="section">
+    <div class="section clearfix">
     <div id="breadcrumb">
       <?php if (!empty($addthis)): ?>
         <div id="addthis"><?php print $addthis; ?></div>
